@@ -1,0 +1,16 @@
+# "FizzBuzz"
+# When the number is divisible by 3 printing "Fizz"
+# When the number is divisible by 5 printing "Buzz"
+# When the number is divisible by 3 and 5 printing "FizzBuzz"
+
+
+for number in range(1, 101):
+
+    if number % 3 == 0 and number % 5 == 0:
+        print("fizzbuzz")
+    elif number % 3 == 0:
+        print("fizz")
+    elif number % 5 == 0:
+        print("buzz")
+    else:
+        print(number)
